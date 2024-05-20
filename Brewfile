@@ -7,10 +7,26 @@ tap "homebrew/bundle"
 # tap "simonbs/dependency-graph", "https://github.com/simonbs/dependency-graph.git"
 tap "xcodesorg/made"
 
-# dev tools
-# brew "ffmpeg"
+# PRODUCTIVITY APPS
+cask "1password"
+cask "notion"
+cask "raycast"
+cask "shottr"
+cask "slack"
+# cask "setapp"
+
+# DEV APPS
+cask "sublime-text"
+cask "sublime-merge"
+cask "visual-studio-code"
+cask "xcodes"
+# cask "charles"
+# cask "gitbutler"
+# cask "proxyman"
+# cask "wireshark" # network protocol analayzer - not sure why I installed it
+
+# CLI TOOLS
 brew "gh"
-# brew "graphviz"
 brew "jq"
 brew "libyaml"
 brew "mint"
@@ -20,35 +36,16 @@ brew "rbenv"
 brew "the_silver_searcher"
 # brew "chargepoint/xcparse/xcparse"
 # brew "simonbs/dependency-graph/dependency-graph"
+# brew "ffmpeg"
+# brew "graphviz"
 
-# productivity apps
-cask "1password"
-# cask "charles"
-# cask "gitbutler"
-cask "notion"
-# cask "proxyman"
-cask "raycast"
-cask "shottr"
-cask "shottr"
-cask "sublime-merge"
-cask "sublime-text"
-cask "visual-studio-code"
-# cask "wireshark" # network protocol analayzer - not sure why I installed it
-cask "xcodes"
-
-# dev apps
-cask "sublime-text"
-cask "sublime-merge"
-cask "visual-studio-code"
-cask "xcodes"
-
-# vs code extensions
-vscode "github.copilot"
-vscode "github.copilot-chat"
-vscode "gtp-dx.dx-vscode"
+# VS CODE EXTENSIONS
+# vscode "github.copilot"
+# vscode "github.copilot-chat"
+# vscode "gtp-dx.dx-vscode" # available only on WM intranet
 vscode "ms-python.debugpy"
 vscode "ms-python.python"
 vscode "ms-python.vscode-pylance"
 vscode "sswg.swift-lang"
-vscode "tintinweb.graphviz-interactive-preview"
+# vscode "tintinweb.graphviz-interactive-preview" # for dot files
 vscode "vadimcn.vscode-lldb"
