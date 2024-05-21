@@ -40,6 +40,11 @@ This does majority of the time consuming stuff.
 - Sublime Merge
     - Prevent automatic fetching by entering a huge delay in "Settings -> General -> Automatic fetching" like 100000000
     - Enter license from 1Password for dark mode
+- Speed up Git. Caching `git status`. 
+```
+git config core.fsmonitor true
+git config core.untrackedcache true
+```
 
 ### WM Steps
 - Self Service app -> Getting Started
