@@ -1,6 +1,6 @@
 # To remove all pinned items from dock
 defaults write com.apple.dock persistent-apps -array
-# Restart dock
+# Restart dock for changes to take effect
 killall Dock
 
 #install homebrew
