@@ -13,9 +13,11 @@ cask "notion"
 cask "raycast"
 cask "shottr"
 cask "slack"
+cask "chatgpt"
 # cask "setapp"
 
 # DEV APPS
+cask "sf-symbols"
 cask "sublime-text"
 cask "sublime-merge"
 cask "visual-studio-code"

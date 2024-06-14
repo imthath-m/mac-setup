@@ -31,6 +31,7 @@ This does majority of the time consuming stuff.
     - gh (in terminal)
         - Use full hostname like "github.comapny.com" to log into enterprise server
     - Slack
+    - Notion
 - Get 1Password browser Safari extension (if required)
 - Update Wallpater (if new ones are bothering)
 - Setup shortcuts in screenshot tool (Shottr or Cleanshot X, which might support sync)
