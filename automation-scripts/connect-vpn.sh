@@ -16,9 +16,9 @@
 set -e
 set -o pipefail
 
-# set the ITEM_ID property in environment variable using the following command
-# export ITEM_ID="<uuid of item from 1Password>"
+# save the ITEM_ID in a file which is git ignored
 # you can get the UUIDs of all items by running `op item list`
+ITEM_ID=$(< item-id.txt)
 user_name="m0m1e7y"
 main_password=$(op item get $ITEM_ID --fields label=password)
 one_time_password=$(op item get $ITEM_ID --otp)
