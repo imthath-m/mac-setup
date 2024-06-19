@@ -19,7 +19,7 @@ set -o pipefail
 # save the ITEM_ID in a file which is git ignored
 # you can get the UUIDs of all items by running `op item list`
 ITEM_ID=$(< item-id.txt)
-user_name="m0m1e7y"
+user_name=""
 main_password=$(op item get $ITEM_ID --fields label=password)
 one_time_password=$(op item get $ITEM_ID --otp)
 
