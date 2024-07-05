@@ -23,5 +23,5 @@ user_name=""
 main_password=$(op item get $ITEM_ID --fields label=password)
 one_time_password=$(op item get $ITEM_ID --otp)
 
-echo -e "$user_name\n$main_password\n$one_time_password\ny" | /opt/cisco/anyconnect/bin/vpn -s connect "IDC Two Factor VPN"
+echo -e "$user_name\n$main_password\n$one_time_password\ny" | /opt/cisco/secureclient/bin/vpn -s connect "IDC Two Factor VPN"
 

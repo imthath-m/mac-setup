@@ -13,4 +13,4 @@
 # @raycast.author imthath
 # @raycast.authorURL https://raycast.com/imthath
 
-/opt/cisco/anyconnect/bin/vpn disconnect
+/opt/cisco/secureclient/bin/vpn disconnect
