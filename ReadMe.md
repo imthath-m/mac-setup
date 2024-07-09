@@ -7,8 +7,8 @@
 ### Actual setup
 Run the following commands
 ```
-chmod +x setup-script.sh
-./setup-script.sh
+chmod +x setup.sh
+./setup.sh
 ```
 This does majority of the time consuming stuff.
 
