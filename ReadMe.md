@@ -1,8 +1,13 @@
 # Setting up a new mac
 
+Default setup is for a professional mac and does not include Setapp, ChatGPT.
+
+Anyways, all Setapp apps (CleanShot, Clean My Mac, Timing etc) need to be installed manually.
+
 ### Customization apps and tools to install before setup
 1. Open Brewfile
-2. Comment out unwanted apps/tools
+2. Uncomment needed apps/tools
+3. Comment out unwanted apps/tools
 
 ### Actual setup
 Run the following commands
